@@ -1,0 +1,143 @@
+/******s**********
+    
+    Web Project
+    Name:Robbie I
+    Date:
+    Description:
+
+*****************/
+
+html,body,section, p, header,footer,div,article,aside{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color: #d8cfb8;
+	font-family: Verdana;
+}
+
+nav{
+	width: 100%;
+	background-image: linear-gradient(#88C1F3,#03699B);
+	text-align: center;
+	margin: 0px auto;
+
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	margin: 0;
+	padding:4px;
+	list-style: none;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top:-3px;
+
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover, #Nav1 ul li a:focus{
+	background-color: #025984;
+	transition: 1s;
+	border-radius: 5px;
+	font-size: 1.1em;
+	padding: 5px;
+}
+
+h4{
+
+}
+
+section{
+	position: relative;
+	background:#fff;
+	width: 95%;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px #333, -1px 1px 2px #333;
+}
+
+#posting, #posting1, #posting2{
+	position: relative;
+	background:#fff;
+	width: 95%;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px #333, -1px 1px 2px #333;
+}
+
+.error
+{
+	color: red;
+	font-size: 13px;
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px 0;
+	display: none;
+}
+
+footer{
+	text-align: center;
+	clear:both;
+	font-size: 0.8em;
+}
+
+img{
+
+	margin: 15px auto;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px #333, -1px 1px 2px #333;
+
+}
+
+@media(max-width: 900px){
+
+#Nav1 ul li a{
+	font-size:12px;
+
+}
+
+}
+
+input[type=text], input[type=submit], input[type=reset]
+{
+	padding: 5px 5px;
+}
+
+.formfield
+{
+	
+	margin: 10px 0px;
+}
+
+#email{
+	margin-left: 90px;
+}
+#message{
+	margin-left: 105px;
+}
+
+#use{
+	
+	margin: 10px 0px;
+	padding: 15px 15px;
+	float: right;
+
+}
+
+#fly{
+
+}
